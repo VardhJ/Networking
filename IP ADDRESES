@@ -1,0 +1,24 @@
+IP ADDRESSES
+
+Layer 3 : iPv4/6
+
+-inet : decimal(ipV4)
+ -128   64   32   16   8   4   2   1
+ -Possible number of IP addresses 4.3 billion(2^32)
+   -Has been used up already
+   -Hence we use NAT(Network address translation)
+
+ -192.168.0.0 to 192.168.255.255 : Private IP address
+  -No.of networks is 20197151 however no. of hosts per network is 254
+
+
+
+
+USE arp-scan -l TO LIST ALL IP ADDRESSES CONNECTED TO YOUR NETWORK
+
+
+
+    
+
+-inet6 : hexadecimal(ipV6)
+ -Possible number of IP addresses 2^128

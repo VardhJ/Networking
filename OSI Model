@@ -1,0 +1,15 @@
+THE OSI MODEL
+
+
+1.  P lease     PHYSICAL - data cables, cat6
+2.  D o         DATA - switching, MAC
+3.  N ot        NETWORK - IP, routing
+4.  T hrow      TRANSPORT - TCP/UDP
+5.  S ausage    SESSION - session management
+6.  P izza      PRESENTATION - WMV, JPEG, MOV
+7.  A way       APPLICATION - HTTP, SMTP
+
+
+Note : We receive data from the physical layer all the way down to the application layer and vice versa for sending data
+     : For troubleshooting go from physical to appplication layer
+      

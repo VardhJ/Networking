@@ -1,0 +1,11 @@
+TCP: Transmission Control protocol(Connection oriented)
+UDP: User Datagram Protocol
+
+Layer 4
+
+
+TCP works on a three way handshake(IMPORTANT)
+
+-SYN packet sent
+-SYN ACK returned
+-ACK send back when acknowledged 

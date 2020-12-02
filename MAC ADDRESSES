@@ -1,0 +1,8 @@
+MAC ADDRESSES - Media access control(Physical address)
+
+Layer 2
+
+Anything that uses a network interface has mac addresses.
+
+-Six different pairs of two(00:00:00:00:00:00)
+ -First three pairs are identifiers
