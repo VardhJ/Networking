@@ -1,21 +1,40 @@
-Common Ports and Protocols		
+Common Ports and Protocols	
+	
 
-TCP:
+TCP: TRANSMISSION CONTROL PROTOCOL/INTERNET PROTOCOL
+     The purpose of TCP/IP is to allow communication over large distances
 
--FTP(21)
--SSH(22)
--Telnet(23)
--SMTP(25)
--DNS(53)
--HTTP(80)
--HTTPS(443)
--POP3(110)
+TCP/IP is a layered server architecture system in which each layer is defined according to a specific function to perform. 
+All these four TCP/IP layers work collaboratively to transmit the data from one layer to another.
+
+	  TCP/IP                            OSI Model
+
+	Application Layer------------------Application
+                         ------------------Presentation
+			 ------------------Session
+
+	Transport Layer  ------------------Transport
+	Internet Layer   ------------------Network
+
+	Network Interface------------------Data Link
+			 ------------------Physical link
+
+
+
+-FTP(21) : FILE TRANSFER PROTOCOL
+-SSH(22) : CRYPTOGRAPHIC NETWORK PROTOCOL(SECURE SHELL)
+-Telnet(23) : FOR VIRTUAL TERMINALS
+-SMTP(25) : FOR EMAILS
+-DNS(53) : DOMAIN NAME SYSTEM(NAMING SYSTEM FOR DEVICES CONNECTED TO NETWORK)
+-HTTP(80) : FOR WEB SURFING
+-HTTPS(443) : FOR WEB SURFING
+-POP3(110) : POST OFFICE PROTOCOL(RETRIEVE EMAILS FROM MAIL SERVER)
 -SMB(139+445)	
 -IMAP(143)
 
 UDP:
 
 -DNS(53)
--DHCP(67,68)
+-DHCP(67,68) : DYNAMIC HOST CONFIG PROTOCOL
 -TFTP(69)
 -SNMP(161)
