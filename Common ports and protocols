@@ -34,7 +34,7 @@ All these four TCP/IP layers work collaboratively to transmit the data from one 
 
 UDP:
 
--DNS(53)
+-DNS(53) : DOMAIN NAME SYSTEM(NAMING SYSTEM FOR DEVICES CONNECTED TO NETWORK)
 -DHCP(67,68) : DYNAMIC HOST CONFIG PROTOCOL
 -TFTP(69)
 -SNMP(161)

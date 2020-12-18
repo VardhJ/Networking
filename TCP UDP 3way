@@ -4,8 +4,18 @@ UDP: User Datagram Protocol
 Layer 4
 
 
+
 TCP works on a three way handshake(IMPORTANT)
 
 -SYN packet sent
 -SYN ACK returned
--ACK send back when acknowledged 
+-ACK sent back when acknowledged 
+
+
+
+Message			Description
+
+Syn		Used to initiate and establish a connection. It also helps you to synchronize sequence numbers between devices.
+ACK		Helps to confirm to the other side that it has received the SYN.
+SYN-ACK		SYN message from local device and ACK of the earlier packet.
+FIN		Used to terminate a connection.
